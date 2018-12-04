@@ -1,0 +1,41 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# package-lock.json 
+# conflicting knowledge about it ignored or not 2018-11-12 
+# https://github.com/npm/npm/issues/20603    (ignore)
+# https://github.com/npm/npm/blob/v5.0.0/doc/files/package-lock.json.md  (Don't ignore)
+
+# if we need to ignore a file that insists still going back to repo:
+# 1.   add that file to gitignore:         src/SomeFile.js
+# 2.   run this on terminal:               git rm --cached src/SomeFile.js
+# 3.   remove it also from remote repo.    e.g. manually at Github.com repo and commit there
+
+# dependencies
+/node_modules
+package-lock.json   
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# misc- Windows 
+desktop.ini 
+thumbs.db
+
+# Apple OS
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.vscode
