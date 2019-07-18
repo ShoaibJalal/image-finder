@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Description: This is a basic search app using material ui components, This app is using pixabay.com as backend api. Person can search photos using search field.
 
+Live demo: https://shoaibjalal.github.io/image-finder/
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
