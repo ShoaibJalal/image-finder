@@ -4,6 +4,8 @@ Description: This is a basic search app using material ui components, This app i
 
 Live demo: https://shoaibjalal.github.io/image-finder/
 
+<img src="ImageFinder.JPG" />
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
